@@ -4,7 +4,7 @@ Helps to test common payment frameworks with testing data, such as:
 - Name, Address, Phone per location
 - Payment test data for providers: Stripe, Spreedly, BrainTree, MercadoPago, Mango, etc.
 
-Original fork of [bugmagnet](https://github.com/gojko/bugmagnet).
+Original fork of [silver02050](https://github.com/silver02050/payment-chrome-extension.git).
 
 ##Usage
 
@@ -24,10 +24,6 @@ from a local setup_ below.
 * Works on multi-frame pages, but only if they are from the same domain
 * Only works in Chrome
 * Tiny overhead per page (<1k), no 3rd party library dependencies, completely passive, so it does not interfere with your web app execution in any way
-
-##Questions, suggestions
-
-Twitter: [@facundofarias](https://twitter.com/facundofarias)
 
 ##Resources for more info
 
@@ -53,7 +49,3 @@ from the command line using
 
 Load [manifest.json](src/manifest.json) from the **src** folder in Chrome as an [unpacked
 extension](https://developer.chrome.com/extensions/getstarted#unpacked).
-
-##Credits
-
-Special thanks to [@gojkoadzic](http://twitter.com/gojkoadzic), and his [bugmagnet](https://github.com/gojko/bugmagnet) which I used as baseline.
